@@ -9,7 +9,7 @@
 #define INC_EXCERCISE3_H_
 #include "stm32f1xx_hal.h"
 
-static enum lightState {Red = 5, Yellow = 2, Green = 3};
+enum lightState {Red = 5, Yellow = 2, Green = 3};
 static int second = Green, startup = 0;
 
 struct lightStatus {
